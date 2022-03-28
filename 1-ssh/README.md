@@ -15,4 +15,7 @@ for the enumeration with nmap from attacker
 #`nmap -sV  -p 21 192.168.244.132`
 
 
+<img width="960" alt="keypad" src="https://github.com/ferasku123/Enumeration/blob/main/1-ssh/nmpa.png">
+
+
 

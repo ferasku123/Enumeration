@@ -35,7 +35,7 @@ if you want to access in msfadmin from  attacker remote you username: msfadmin a
 #`ssh msfadmin@192.168.244.132`
 
 
-<img width="960" alt="keypad" src="https://github.com/ferasku123/Enumeration/blob/main/1-ssh/msfadmin ssh.png>
+<img width="960" alt="keypad" src="https://github.com/ferasku123/Enumeration/blob/main/1-ssh/3-msfadmin%20ssh.png">
 
                                    
                                    

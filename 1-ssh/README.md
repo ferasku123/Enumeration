@@ -25,7 +25,7 @@ in the attacker machine this is config file ssh:
 $`nano /etc/ssh/sshd_config`
 
 
-<img width="960" alt="keypad" src="https://github.com/ferasku123/Enumeration/blob/main/1-ssh/ssh-config-file.png">
+<img width="960" alt="keypad" src="https://github.com/ferasku123/Enumeration/blob/main/1-ssh/3-msfadmin%20ssh.png">
 
 
 ----------------------------------------------------------------------------

@@ -18,4 +18,29 @@ for the enumeration with nmap from attacker
 <img width="960" alt="keypad" src="https://github.com/ferasku123/Enumeration/blob/main/1-ssh/nmpa.png">
 
 
+--------------------------------------------------------------------
+
+in the attacker machine this is config file ssh:
+
+$`nano /etc/ssh/sshd_config`
+
+
+<img width="960" alt="keypad" src="https://github.com/ferasku123/Enumeration/blob/main/1-ssh/ssh-config-file.png">
+
+
+----------------------------------------------------------------------------
+
+if you want to access in msfadmin from  attacker remote you username: msfadmin and password:msfadmin and ip target : 192.168.244.132
+
+#`ssh msfadmin@192.168.244.132`
+
+
+<img width="960" alt="keypad" src="https://github.com/ferasku123/Enumeration/blob/main/1-ssh/msfadmin ssh.png>
+
+                                   
+                                   
+now you are in attacker machine with msfadmin user
+                                   
+
+
 

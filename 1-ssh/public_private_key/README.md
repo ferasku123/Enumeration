@@ -13,7 +13,7 @@ $`ssh-keygen -t rsa`
 
 
 
-<img width="960" alt="keypad" src=""https://github.com/ferasku123/Enumeration/blob/main/1-ssh/public_private_key/create%20public%20private%20key.png>
+<img width="960" alt="keypad" src="https://github.com/ferasku123/Enumeration/blob/main/1-ssh/public_private_key/create%20public%20private%20key.png">
 
 now will be create hidden folder  in  /$HOME/.ssh :
 
@@ -66,7 +66,7 @@ $`mkdir private_key`
 
 $ `cd private_key`
 
-$`wget 'http://192.168.244.132/id_rsa'
+$`wget 'http://192.168.244.132/id_rsa'`
 
 $`chmod 777 id_rsa`
 

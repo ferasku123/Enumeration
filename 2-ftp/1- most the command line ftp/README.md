@@ -76,7 +76,7 @@ now if you want to show the files content
 `$cat test.txt users.txt`
 
 
-<img width="960" alt="keypad" src=https://github.com/ferasku123/Enumeration/blob/main/2-ftp/1-%20most%20the%20command%20line%20ftp/get%20file%20.png">
+<img width="960" alt="keypad" src="https://github.com/ferasku123/Enumeration/blob/main/2-ftp/1-%20most%20the%20command%20line%20ftp/get%20file%20.png">
 
 now the user admin-it will be brutforce in the ftp for you need to password for login to ftp 
 

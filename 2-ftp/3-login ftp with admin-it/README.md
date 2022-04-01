@@ -23,12 +23,17 @@ now will be enter to this folder
 
 >`ls`
 
+
+<img width="960" alt="keypad" src="https://github.com/ferasku123/Enumeration/blob/main/2-ftp/3-login%20ftp%20with%20admin-it/ftp%20admin-it.png">
 now the folder is empty
 
 
 
 this folder can be open by the web server in browser:
 
+
+
+<img width="960" alt="keypad" src="https://github.com/ferasku123/Enumeration/blob/main/2-ftp/3-login%20ftp%20with%20admin-it/ftp%20in%20web%20browser.png">
 
 
 so you can upload to this folder a file
@@ -45,6 +50,19 @@ if you want to upload or download files ascii in ftp you must type the binary or
 
 >`put wget.exe`
 
+>`ls`
+
+<img width="960" alt="keypad" src="https://github.com/ferasku123/Enumeration/blob/main/2-ftp/3-login%20ftp%20with%20admin-it/put%20file.png">
+
+now we can open the folder with browser :
+
+
+<img width="960" alt="keypad" src="https://github.com/ferasku123/Enumeration/blob/main/2-ftp/3-login%20ftp%20with%20admin-it/finish.png">
+
+
+you can run the simple-webshell.php in the browser with the command line in browser
+
+<img width="960" alt="keypad" src="https://github.com/ferasku123/Enumeration/blob/main/2-ftp/3-login%20ftp%20with%20admin-it/webshell.png">
 
 
 

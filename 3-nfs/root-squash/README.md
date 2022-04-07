@@ -52,5 +52,52 @@ cleint#`ls -l`
 now it is create 
 
 
+-----------------------------------------------------------------------------------------------
+
+It is assumed that the root user on the client can change the attributes inside the share folder, such as changing the name, deleting, modifying the validity and others.
+
+
+
+client#`chmod 777 1`
+
+<img width="960" alt="keypad" src="https://github.com/ferasku123/Enumeration/blob/main/3-nfs/root-squash/perms.png">
+
+but the deny because the system in server used in file /etc/exports root_squash
+
+
+server#`cat /etc/passwd | grep "nfs"`
+
+
+server#`cat /etc/exports`
+
+
+<img width="960" alt="keypad" src="https://github.com/ferasku123/Enumeration/blob/main/3-nfs/root-squash/root-squash.png">
+
+the server is used the root_squash in folder /data as nobody user  false shell
+
+if you want to  disabled root_squash in /data ,you must replace to 
+
+/data    *(rw,no_root_squash)
+
+
+
+and reload the service nfs:
+
+server#`exportfs -rf`
+
+-----------------------------------
+
+and now if go to client root:
+
+client#`chmod 777 1`
+
+client#`mkdir client-root`
+
+client#`ls -la `
+
+
+<img width="960" alt="keypad" src="https://github.com/ferasku123/Enumeration/blob/main/3-nfs/root-squash/finish.png">
+
+
 
 

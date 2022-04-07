@@ -17,7 +17,7 @@ permsision denied Although there is read and write (rw) permission for the share
 
 why? 
 
-because the /data folder in server the presmission is -rw-r--r-- 
+because the /data folder in server the presmission is drwxr-xr-x
 
 #`ls -ld /data`
 
